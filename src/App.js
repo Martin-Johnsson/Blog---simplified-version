@@ -7,14 +7,14 @@ function App() {
       id: 1,
       question: "Vad är tre fördelar med att använda React?",
       answer:
-        "Man kan återanvända kod som man en gång skapat. Projektet produktivitet ökar. Webbapplikationen laddas snabbare.",
+        "Man kan återanvända kod som man en gång skapat, React har en stark community och slutligen så laddas webbapplikationen snabbare.",
     },
     {
       id: 2,
       question:
         "Vad betyder Single Page Application och vad skiljer det från en “vanlig” webbplats?",
       answer:
-        "Det betyder att sidan bara laddas vid ett tillfälle och därefter uppdateras när nytt innehåll ska visas. ",
+        "Det betyder att inehållet bara laddas vid ett tillfälle och därefter uppdateras endast när det nya innehållet som ska visas. Logiken utförs i webbläsaren istället för på servern och endast data skickas fram och tillbaka efter att sidan har laddats.",
     },
     {
       id: 3,

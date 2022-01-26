@@ -1,8 +1,8 @@
-import {FcLike} from "react-icons/fc"
+
 const PostLiked = () => {
     return (
       <div>
-        <span className="likeSpan">  You have <FcLike/>:d this post!</span>
+        <span className="likeSpan">  You have liked this post!</span>
       </div>
     );
   };

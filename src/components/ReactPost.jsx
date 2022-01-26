@@ -10,7 +10,7 @@ const Post = ({ question, answer }) => {
       <div className="post">
         <p classname="postQuestion">{question}</p>
         <br />
-        <p>Svar: {answer}</p>
+        <p>Svar: <br /> <br /> {answer}</p>
         <br />
         <button
           className={showLike ? "hide" : null}
